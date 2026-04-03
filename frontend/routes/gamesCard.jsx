@@ -34,23 +34,33 @@ function GamesCard({ jogo, toggleCard, cardAberto, deleteJogo, abrirFormularioUp
             {aberto && (
                 <div className="detalhes">
                     <div className="linha">
-                        <p className="label">Gênero: {jogo.genero || "Sem gênero"}</p>
+                        <p className="label">
+                            Gênero: <span className="valor">{jogo.genero || "Sem gênero"}</span>
+                        </p>
                     </div>
 
                     <div className="linha">
-                        <p className="label">Plataforma: {jogo.plataforma || "Não cadastrada"}</p>
+                        <p className="label">
+                            Plataforma: <span className="valor">{jogo.plataforma || "Não cadastrada"}</span>
+                        </p>
                     </div>
 
                     <div className="linha">
-                        <p className="label">Ano de lançamento: {jogo.ano_lancamento || "Não cadastrada"}</p>
-                    </div>
+                        <p className="label">
+                        Ano de lançamento: <span className="valor">{jogo.ano_lancamento || "Não cadastrada"}</span>
+                        </p>
+                        </div>
 
-                    <div className="linha">
-                        <p className="label">Desenvolvedora: {jogo.desenvolvedora || "Não cadastrada"}</p>
-                    </div>
+                        <div className="linha">
+                            <p className="label">
+                            Desenvolvedora: <span className="valor">{jogo.desenvolvedora || "Não cadastrada"}</span>
+                            </p>
+                        </div>
 
-                    <div className="linha preco-baixo">
-                        <p className="label">Preço: {jogo.preco}</p>
+                        <div className="linha preco-baixo">
+                        <p className="label">
+                            Preço: <span className="valor">{jogo.preco}</span>
+                        </p>
                     </div>
 
                     <div className="button-update">

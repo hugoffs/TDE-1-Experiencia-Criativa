@@ -171,8 +171,9 @@ function App() {
                 {mostrarForm ? "Voltar" : "Adicionar jogos"}
             </button>
 
-			roda pé 
-			Hugo Fagundes Faria Santos 
+			<footer className="footer">
+                <p>© 2026 Hugo Fagundes Faria Santos</p>
+            </footer>
         </div>
     );
 }
