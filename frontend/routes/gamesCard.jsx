@@ -49,15 +49,15 @@ function GamesCard({ jogo, toggleCard, cardAberto, deleteJogo, abrirFormularioUp
                         <p className="label">
                         Ano de lançamento: <span className="valor">{jogo.ano_lancamento || "Não cadastrada"}</span>
                         </p>
-                        </div>
+                    </div>
 
-                        <div className="linha">
-                            <p className="label">
+                    <div className="linha">
+                        <p className="label">
                             Desenvolvedora: <span className="valor">{jogo.desenvolvedora || "Não cadastrada"}</span>
-                            </p>
-                        </div>
+                        </p>
+                    </div>
 
-                        <div className="linha preco-baixo">
+                    <div className="linha preco-baixo">
                         <p className="label">
                             Preço: <span className="valor">{jogo.preco}</span>
                         </p>
