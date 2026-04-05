@@ -30,10 +30,13 @@
     padding: 10px 12px;
     border-radius: 6px;
     font-size: 14px;
-    font-family: sans-serif; /* fonte padrão para os valores */
+    font-family: 'Ubuntu', sans-serif;
     transition: all 0.25s ease;
     cursor: pointer;
     transform-origin: center;
+
+
+    border: 2px solid transparent;
 }
 
 /* LINHA PRINCIPAL */
@@ -71,6 +74,7 @@
     transform: scale(1.03);
     box-shadow: 0 6px 15px rgba(0,0,0,0.15);
     background-color: #ffffff;
+    border-color: #22d3ee;
 }
 
 /* CARD ABERTO */
